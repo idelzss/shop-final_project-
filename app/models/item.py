@@ -1,5 +1,5 @@
 from . import BASE
-from sqlalchemy import Column, String, Integer, Boolean, Text, ForeignKey, Float
+from sqlalchemy import Column, String, Integer, Text, Float
 from sqlalchemy.orm import relationship
 
 class Item(BASE):

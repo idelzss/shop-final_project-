@@ -1,5 +1,5 @@
 from . import BASE, Cart, session
-from sqlalchemy import Column, String, Integer, Text, Boolean
+from sqlalchemy import Column, String, Integer, Boolean
 from sqlalchemy.orm import relationship
 
 
